@@ -1,0 +1,85 @@
+
+.modal-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .modal-title {
+    flex-grow: 1;
+    text-align: center;
+    font-size: 24px;
+    font-weight: bold;
+  }
+  
+  .modal-close-button {
+    position: absolute;
+    right: 0;
+    padding: 10px;
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 16px;
+  }
+  
+
+  .analytics-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #333;
+    color: #fff;
+    min-height: calc(100vh - 60px); 
+    padding: 20px;
+    box-sizing: border-box; 
+  }
+  
+  .button-container {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #444;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
+  /* Modal Styles */
+  .ReactModal__Overlay {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.75);
+  }
+  
+  .ReactModal__Content {
+    position: relative;
+    top: auto;
+    left: auto;
+    right: auto;
+    bottom: auto;
+    margin: auto;
+    transform: none;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    max-width: 600px;
+    width: 100%;
+  }
+  
