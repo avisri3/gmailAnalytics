@@ -1,12 +1,12 @@
 # Gmail Analytics
 
-Gmail Analytics is a web application that analyzes a user's Gmail account, fetches emails, and displays various analytics in a user-friendly interface. The application consists of a frontend built with React and a backend built with Node.js and Express.
+Gmail Analytics is a web application that analyzes a user's Gmail account, fetches emails, and displays various analytics in a user-friendly interface. The application consists of a frontend built with React and a backend built with Node.js and Express.  
+[*Presentation*](https://docs.google.com/presentation/d/e/2PACX-1vR-12eR71rrGqdrmJ24-S5jphNHOGqkr49wdfYAbeQbtE5-eKAgBc8sVfb94RKTcbuNgIulgMWxIdiK/pub?start=true&loop=true&delayms=5000)
 ## Team
 - Akshat Kumar
 - Vishesh Gupta
 - Riyanshi Agarwal
 - Aviral Srivastava
-  
 ## Features
 
 - Google OAuth2 authentication
